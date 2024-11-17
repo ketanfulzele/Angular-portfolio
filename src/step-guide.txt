@@ -1,0 +1,2 @@
+npm install --save @angular/cdk     // use to add breakpoint observer in angular app 
+created responsivedirective tomake our code responsive only on two breakpoints 1, mobile 2, pc

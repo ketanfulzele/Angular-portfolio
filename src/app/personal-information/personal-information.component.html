@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>
+        <span>Personal Information</span>
+    </h1>
+
+    <table>
+        <tbody>
+            <tr *ngFor="let userdata of userData">
+                <td *ngFor="let data of userdata">
+                    {{data}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section>
+        <p *ngFor="let aboutme of aboutMe">
+            {{aboutme}}
+        </p>
+    </section>
+</div>

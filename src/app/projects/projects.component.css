@@ -1,0 +1,65 @@
+:host {
+    padding: 3rem 2rem;
+    display: block;
+    color: white;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+section h2 {
+    color: var(--green);
+}
+
+section h3 {
+    margin-top: 0.5rem;
+    color: var(--gray-light);
+}
+
+section ul {
+    margin-top: 0.5rem;
+    list-style: circle;
+}
+
+section ul li {
+    margin-top: 0.5rem;
+}
+
+/* PC style */
+
+:host.pc section {
+    width: max-content;
+    position: relative;
+    margin-left: 5rem;
+}
+
+:host.pc section h3 span:nth-child(2) {
+    color: white;
+}
+
+:host.pc section::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    left: -60px;
+    background-color: var(--green);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+:host.pc section::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 130%;
+    left: -50px;
+    top: 5%;
+    background-color: var(--green);
+}
+
+:host.pc section:last-child::after {
+    height: 100%;
+}
