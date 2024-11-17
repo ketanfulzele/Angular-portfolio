@@ -12,6 +12,17 @@ import { NgFor } from '@angular/common';
 export class WorkExperienceComponent {
 
   workExperiences: WorkExperience[] = [
+
+    {
+      role: 'Software Engineer',
+      company: 'Cognizant Technologies Solution Pvt Limited.',
+      type: 'Full Time',
+      duration: '24 september 2022 -  present',
+      descriptions: [
+        'Worked with multiple teams to develop web applications',
+        'Worked on technology such as (HTML , CSS , Java, Javascript , Typescript, Angular, Git, Rally)'
+      ]
+    },
     {
       role: 'Software Engineer Intern',
       company: 'Cognizant Technologies Solution Pvt Limited.',
@@ -22,15 +33,6 @@ export class WorkExperienceComponent {
         'Worked on technology such as (HTML , CSS , Java, Javascript , Typescript, Angular, Git, Rally)'
       ]
     },
-    {
-      role: 'Software Engineer',
-      company: 'Cognizant Technologies Solution Pvt Limited.',
-      type: 'Full Time',
-      duration: '24 september 2022 -  present',
-      descriptions: [
-        'Worked with multiple teams to develop web applications',
-        'Worked on technology such as (HTML , CSS , Java, Javascript , Typescript, Angular, Git, Rally)'
-      ]
-    }
+
   ]
 }

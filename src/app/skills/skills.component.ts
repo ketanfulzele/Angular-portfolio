@@ -38,6 +38,36 @@ export class SkillsComponent {
       rating: '95%'
     },
     {
+      name: 'Java',
+      level: 'Expert',
+      rating: '80%'
+    },
+    {
+      name: 'Spring Boot',
+      level: 'Expert',
+      rating: '95%'
+    },
+    {
+      name: 'Spring Microservices',
+      level: 'Intermidiate',
+      rating: '60%'
+    },
+    {
+      name: 'Git',
+      level: 'Expert',
+      rating: '90%'
+    },
+    {
+      name: 'Docker',
+      level: 'Expert',
+      rating: '90%'
+    },
+    {
+      name: 'AWS',
+      level: 'Expert',
+      rating: '90%'
+    },
+    {
       name: 'Rally',
       level: 'Expert',
       rating: '95%'
