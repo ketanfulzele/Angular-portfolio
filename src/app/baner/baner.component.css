@@ -15,10 +15,11 @@
     font-size: 4rem;
     padding: 0 0 2rem;
     text-align: center;
-    text-decoration: underline;
-    font-style: italic;
+    /* text-decoration: underline; */
+    /* font-style: italic; */
     color: var(--green);
     font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: black 10px 10px 10px;
 }
 
 .profile {
