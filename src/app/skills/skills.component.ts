@@ -13,49 +13,54 @@ export class SkillsComponent {
 
   skills: Skill[] = [
     {
-      name: 'HTML 5',
+      name: 'Java 8',
       level: 'Expert',
       rating: '90%'
-    },
-    {
-      name: 'CSS 3',
-      level: 'Expert',
-      rating: '90%'
-    },
-    {
-      name: 'Javascript',
-      level: 'Intermidiate',
-      rating: '80%'
-    },
-    {
-      name: 'Typescript',
-      level: 'Intermidiate',
-      rating: '80%'
-    },
-    {
-      name: 'Angular',
-      level: 'Expert',
-      rating: '95%'
-    },
-    {
-      name: 'Java',
-      level: 'Expert',
-      rating: '80%'
     },
     {
       name: 'Spring Boot',
       level: 'Expert',
+      rating: '90%'
+    },
+    {
+      name: 'Microservices',
+      level: 'Expert',
+      rating: '90%'
+    },
+    {
+      name: 'REST',
+      level: 'Expert',
+      rating: '90%'
+    },
+    {
+      name: 'JUnit',
+      level: 'Expert',
       rating: '95%'
     },
     {
-      name: 'Spring Microservices',
-      level: 'Intermidiate',
-      rating: '60%'
+      name: 'Mockito',
+      level: 'Expert',
+      rating: '80%'
+    },
+    {
+      name: 'SQL',
+      level: 'Expert',
+      rating: '95%'
+    },
+    {
+      name: 'Hibernate',
+      level: 'Expert',
+      rating: '95%'
     },
     {
       name: 'Git',
       level: 'Expert',
       rating: '90%'
+    },
+     {
+      name: 'Gitlab',
+      level: 'Intermidiate',
+      rating: '70%'
     },
     {
       name: 'Docker',
@@ -64,6 +69,11 @@ export class SkillsComponent {
     },
     {
       name: 'AWS',
+      level: 'Expert',
+      rating: '90%'
+    },
+     {
+      name: 'CI/CD',
       level: 'Expert',
       rating: '90%'
     },
