@@ -20,10 +20,13 @@ export class PersonalInformationComponent {
   ];
 
   aboutMe: string[] = [
-    'Hi, I am software engineer with 4+ year of experience in IT industry.',
-    'Worked as software engineer in Cognizant Technology Solutions for various technologies (Java 8 , Spring Boot , Microservices , REST , Hibernate, JUnit , Mockito , Git, Gitlab, Docker , CI/CD , Kafka , Rally , Splunk, SoapUI, Postman, Dynatrace)',
-    'Delivered all work within deadline. Always eager to learn new technologies.',
-    'Currently working as Software Engineer at Cognizant technology solutions.'
+    `Java Spring Boot Developer with 4+ years of experience in designing, developing, and 
+    deploying enterprise-grade microservices for banking and financial services clients 
+    including Broadridge Financial and Truist Bank.` , `Strong expertise in Java 8, Spring Boot 3, 
+    Microservices, AWS, Docker, CI/CD, and distributed systems patterns such as Saga, CQRS, 
+    and Event-Driven Architecture. Proven experience in cards domain, e-commerce platforms, 
+    REST/SOAP APIs, and cloud-native applications.` , ` AWS & Azure certified professional with 
+    hands-on experience in production monitoring and performance optimization.`
   ]
 
 }
